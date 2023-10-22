@@ -13,7 +13,8 @@
 
     margin-left: 2%;
     width: 96%;
-    max-height: 130vh;
+    max-height: 100%;
+    margin-bottom: 10vh;
 
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 2fr;
@@ -66,6 +67,7 @@
     margin-left: 2%;
     width: 96%;
     max-height: 100%;
+    margin-bottom: 10vh;
 
     box-sizing: border-box;
 }
@@ -83,6 +85,7 @@
     width: 96%;
     margin-left: 2%;
     max-height: 100%;
+    margin-bottom: 10vh;
 }
 
 .steps-point {
@@ -107,6 +110,7 @@
     grid-column-gap: 2vh;
 
     max-height: 100%;
+    margin-bottom: 10vh;
 }
 
 .project-image {
@@ -125,6 +129,7 @@
     width: 96%;
     margin-left: 2%;
     box-sizing: border-box;
+    margin-bottom: 10vh;
 }
 
 .testimonial {
@@ -139,4 +144,28 @@
 
     justify-items: center;
     align-items: center;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 4vw;
+    
+    width: 96%;
+    margin-left: 2%;
+    box-sizing: border-box;
+
+    max-height: 100%;
+    margin-bottom: 10vh;
+}
+
+.footer {
+    display: flex;
+
+    margin-bottom: 1vh;    
+    margin-left: 2%;
+    max-width: 96%;
+    justify-content: space-between;
+    align-items: end;
+    
 }

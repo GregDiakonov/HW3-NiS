@@ -13,6 +13,8 @@ import About from "./About";
 import Steps from "./Steps";
 import Projects from "./Projects";
 import Testimonials from "./testimonials"
+import Form from "./Form"
+import Footer from "./Footer"
 
 import reportWebVitals from './reportWebVitals';
 
@@ -25,6 +27,8 @@ root.render(
     <Steps />
     <Projects />
     <Testimonials />
+    <Form />
+    <Footer />
   </React.StrictMode>
 );
 
