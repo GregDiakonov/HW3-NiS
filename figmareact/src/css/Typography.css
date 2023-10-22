@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto"), url(..//fonts/Roboto/Roboto-Regular.ttf);
+}
+
+h1 {
+    font-family: "Helvetica";
+    font-size: 72px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: "Helvetica";
+    font-size: 48px;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: "Helvetica";
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.large-text {
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.large-bold-text {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+}
+
+body {
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #212529;
+}
+
+.specific-text {
+    font-family: "Roboto";
+    font-size: 12px;
+}

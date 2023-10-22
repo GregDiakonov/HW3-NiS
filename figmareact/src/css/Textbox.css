@@ -1,0 +1,16 @@
+input {
+    border: 0px;
+    border-bottom: 1px solid #212529;
+}
+
+input:focus {
+    border-bottom: #DDD7C0;
+}
+
+input:error {
+    border-bottom: #E13A3A;
+}
+
+input:success {
+    border-bottom: #F9C76B;
+}

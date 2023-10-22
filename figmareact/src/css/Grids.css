@@ -1,0 +1,142 @@
+.header {
+    display: grid;
+    
+    grid-template-columns: 4fr 1fr;
+    justify-items: end;
+    
+    margin-top: 1vh;
+    margin-right: 1vw;
+}
+
+.hero {
+    display: grid;
+
+    margin-left: 2%;
+    width: 96%;
+    max-height: 130vh;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr;
+
+    grid-row-gap: 2vh;
+
+    grid-template-areas:
+    "ha hb"
+    "hc hd"
+    "he hd"
+    "he hd";
+
+    box-sizing: border-box;
+}
+
+.hero1 {
+    grid-area: ha;
+}
+
+.hero2 {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: end;
+    align-items:  end;
+
+    grid-area: hb;
+}
+
+.hero3 {
+    grid-area: hc;
+    width: 50%;
+
+    font-size: 20px;
+}
+
+.hero4 {
+    grid-area: hd;
+}
+
+.hero5 {
+    grid-area: he;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    max-height: 70vh;
+    margin-left: 2%;
+    width: 96%;
+    max-height: 100%;
+
+    box-sizing: border-box;
+}
+
+.about-point {
+    width: 30%;
+    line-height: 18px;
+    margin-top: 5vh;
+}
+
+.steps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    width: 96%;
+    margin-left: 2%;
+    max-height: 100%;
+}
+
+.steps-point {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    border-bottom: 1px solid #212529;
+    margin-top: 5vh;
+
+    align-items: start;
+
+    width: 90%;
+    justify-self: center;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    grid-row-gap: 2vw;
+    grid-column-gap: 2vh;
+
+    max-height: 100%;
+}
+
+.project-image {
+    display: flex;
+    justify-self: center;
+
+    max-width: 100%;
+    max-height: 500px;
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2vw;
+
+    width: 96%;
+    margin-left: 2%;
+    box-sizing: border-box;
+}
+
+.testimonial {
+    border: 1px solid #212529;
+    
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    grid-row-gap: 2vh;
+
+    padding-bottom: 20px;
+    max-width: 100%;
+
+    justify-items: center;
+    align-items: center;
+}
